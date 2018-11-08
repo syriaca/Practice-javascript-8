@@ -22,8 +22,8 @@ ul.style.border = "2px solid indigo";
 
 // 5: Select only the second element with the class '.container'.
 //    Assign it to a variable named `container`.
-
-// container.style.backgroundColor = "royalblue";
+const container = document.querySelectorAll('.container')[1];
+container.style.backgroundColor = "royalblue";
 
 // 6: Select all <a> elements that have a 'title' attribute. 
 //    Set their color value to the color of your choice.
