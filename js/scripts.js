@@ -27,5 +27,7 @@ container.style.backgroundColor = "royalblue";
 
 // 6: Select all <a> elements that have a 'title' attribute. 
 //    Set their color value to the color of your choice.
+const linkWithTitle = objectToArray(document.querySelectorAll('a[title]'));
+linkWithTitle.forEach(link => {link.style.color = "royalblue"});
 
 
